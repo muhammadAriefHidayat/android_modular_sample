@@ -2,4 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.base_android">
 
+    <application>
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+    </application>
+
 </manifest>
